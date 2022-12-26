@@ -1,0 +1,82 @@
+*
+    margin: 0
+    padding: 0
+html
+    min-height: 100%
+body
+    background-image: url("pic5.jpg")
+    background-size: cover
+    font-family: 'Grandstander', cursive
+    form
+        position: absolute
+        top: 50%
+        left: 50%
+        white-space: nowrap
+        transform: translate(-50%, -50%)
+        text-align: center
+        h1
+            background: rgb(255,149,0)
+            background: linear-gradient(0deg, rgba(255,149,0,1) 0%, rgba(255,254,120,1) 100%)
+            background-clip: text
+            -webkit-background-clip: text
+            color: #00000000
+            -webkit-text-stroke: 5px #222
+            font-size: 120px
+            text-align: center
+            // transform: translateY(-100%)
+            transition: 0.3s
+
+            margin-bottom: 50px
+            // font-weight: normal
+        >button
+            background-color: #fff
+            border: 5px solid #222
+            border-radius: 10px
+            font-family: 'Grandstander', cursive
+            line-height: 40px
+            padding: 0 40px
+            font-size: 20px
+            opacity: 0
+            background: rgb(255,255,255)
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(136,227,121,1) 50%, rgba(192,255,169,1) 75%, rgba(136,227,121,1) 100%)
+            background-position: bottom
+            background-size: 100% 200%
+            transition: 0.3s
+            cursor: pointer
+            &:hover
+                background-position: top
+                color: #fff
+                text-shadow: 0 0 5px #00000033
+                // border: 5px solid #22222233
+        h2
+            white-space: normal
+            margin-bottom: 50px
+            color: #222
+            font-size: 40px
+            transition: 0.3s
+            opacity: 0
+            // background-color: #fff
+            // display: table
+            // text-shadow: 0 0 20px #00f
+        .buttons
+            white-space: normal
+            font-size: 0
+            opacity: 0
+            transition: 0.3s
+            button
+                background-color: #ffeeb7
+                border: 5px solid #222222aa
+                font-family: 'Grandstander', cursive
+                border-radius: 10px
+                padding: 0 40px
+                font-size: 20px
+                cursor: pointer
+                line-height: 40px
+                width: calc(50% - 10px)
+                box-sizing: border-box
+                margin: 5px
+                transition: 0.3s
+                &:hover
+                    border: 5px solid #222
+                    filter: hue-rotate(45deg)
+                    // border: 5px solid #22222244

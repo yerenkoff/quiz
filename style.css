@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("pic5.jpg");
+  background-size: cover;
+  font-family: 'Grandstander', cursive;
+}
+
+body form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body form h1 {
+  background: #ff9500;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9500), to(#fffe78));
+  background: linear-gradient(0deg, #ff9500 0%, #fffe78 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #00000000;
+  -webkit-text-stroke: 5px #222;
+  font-size: 120px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 50px;
+}
+
+body form > button {
+  background-color: #fff;
+  border: 5px solid #222;
+  border-radius: 10px;
+  font-family: 'Grandstander', cursive;
+  line-height: 40px;
+  padding: 0 40px;
+  font-size: 20px;
+  opacity: 0;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, white), color-stop(50%, #88e379), color-stop(75%, #c0ffa9), to(#88e379));
+  background: linear-gradient(0deg, white 0%, white 50%, #88e379 50%, #c0ffa9 75%, #88e379 100%);
+  background-position: bottom;
+  background-size: 100% 200%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+body form > button:hover {
+  background-position: top;
+  color: #fff;
+  text-shadow: 0 0 5px #00000033;
+}
+
+body form h2 {
+  white-space: normal;
+  margin-bottom: 50px;
+  color: #222;
+  font-size: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+body form .buttons {
+  white-space: normal;
+  font-size: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body form .buttons button {
+  background-color: #ffeeb7;
+  border: 5px solid #222222aa;
+  font-family: 'Grandstander', cursive;
+  border-radius: 10px;
+  padding: 0 40px;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 40px;
+  width: calc(50% - 10px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body form .buttons button:hover {
+  border: 5px solid #222;
+  -webkit-filter: hue-rotate(45deg);
+          filter: hue-rotate(45deg);
+}
+/*# sourceMappingURL=style.css.map */
